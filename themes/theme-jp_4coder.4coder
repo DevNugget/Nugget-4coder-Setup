@@ -1,0 +1,69 @@
+defcolor_back = 0xFF181818;
+defcolor_margin = 0xFF202020;
+defcolor_margin_hover = 0xFF252525;
+defcolor_margin_active = 0xFF323232;
+defcolor_list_item = {defcolor_margin, defcolor_back};
+defcolor_list_item_hover = {defcolor_margin_hover, defcolor_margin};
+defcolor_list_item_active = {defcolor_margin_active, defcolor_margin_active};
+defcolor_cursor = {0xFF00EE00, 0xFFEE7700};
+defcolor_at_cursor = defcolor_back;
+defcolor_highlight_cursor_line = 0xFF1E1E1E;
+defcolor_highlight = 0xFFDDEE00;
+defcolor_mark = 0xFF494949;
+defcolor_text_default = 0xFF90B080;
+defcolor_at_highlight = 0xFFFF44DD;
+
+defcolor_comment = 0xFF797979; 
+defcolor_comment_pop = {0xFF00C000, 0xFFC00000, 0xFFC0C000};
+defcolor_keyword = 0xFFD08F20;
+defcolor_str_constant = 0xFF50FF30;
+defcolor_char_constant = defcolor_str_constant;
+defcolor_int_constant = defcolor_str_constant;
+defcolor_float_constant = defcolor_str_constant;
+defcolor_bool_constant = defcolor_str_constant;
+defcolor_include = defcolor_str_constant;
+defcolor_preproc = 0xFFC060C0;
+defcolor_special_character = 0xFFFF0000;
+defcolor_ghost_character = 0xFF4E5E46;
+
+defcolor_paste = 0xFFDDEE00;
+
+defcolor_undo = 0xFF00DDEE;
+
+defcolor_highlight_junk = 0xff3a0000;
+defcolor_highlight_white = 0xff003a3a;
+
+defcolor_bar = 0xFF888888;
+defcolor_bar_active = 0xFF666666;
+defcolor_base = 0xFF000000;
+defcolor_pop1 = 0xFF3C57DC;
+defcolor_pop2 = 0xFFFF0000;
+
+defcolor_back_cycle = {0x20A00000, 0x1C00A000, 0x1C0000A0, 0x1CA0A000};
+defcolor_text_cycle = { 0xFF00F3F3, 0xFF00F379, 0xFFF379F3 };
+
+defcolor_line_numbers_back = 0xFF202020;
+defcolor_line_numbers_text = 0xFF404040;
+
+fleury_color_syntax_crap                = 0x8090B080;
+fleury_color_operators                  = 0xFFF379F3;
+fleury_color_inactive_pane_overlay      = 0x00000000;
+fleury_color_inactive_pane_background   = defcolor_back;
+fleury_color_file_progress_bar          = 0x4000F3F3;
+
+fleury_color_brace_highlight            =  defcolor_text_cycle;
+fleury_color_brace_line                 = { 0x8000F3F3, 0x8000F379, 0x80F379F3 };
+fleury_color_brace_annotation           = { 0xC000F3F3, 0xC000F379, 0xC0F379F3 };
+
+fleury_color_index_product_type         = 0xFF00F3F3; // Struct, Enum, Class
+fleury_color_index_sum_type             = 0xFF00F379; // Unions
+fleury_color_index_function             = 0xFF00BDf3; // 0xFFBCD0B3;
+fleury_color_index_macro                = defcolor_preproc;
+fleury_color_index_constant             = 0xFFF3F3F3; // Enum Values
+fleury_color_index_comment_tag          = 0xFFFFFFFF;
+fleury_color_cursor_macro               = 0xFFC060C0;
+fleury_color_cursor_power_mode          = 0xffffffff;
+fleury_color_plot_cycle                 = { 0xff03d3fc, 0xff22b80b, 0xfff0bb0c, 0xfff0500c };
+fleury_color_token_highlight            = 0xC000EE00;
+fleury_color_token_minor_highlight      = 0xC0797979;
+fleury_color_comment_user_name          = fleury_color_index_comment_tag;
